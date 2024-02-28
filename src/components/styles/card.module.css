@@ -1,0 +1,15 @@
+.container {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    margin-left: 30px;
+}

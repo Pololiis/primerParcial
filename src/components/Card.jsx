@@ -1,7 +1,11 @@
+import style from './styles/card.module.css'
 
-const Card = () => {
+const Card = ({name, pokemon}) => {
   return (
-    <div>Holis, soy una Card.</div>
+    <div className={style.container}>
+      <p>Entrenador: {name}</p>
+      <p>Pokémon: {pokemon}</p>
+    </div>
   )
 }
 

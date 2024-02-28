@@ -1,0 +1,17 @@
+.btn {
+    background-color: blue;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #798bbd;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 500px;
+}
